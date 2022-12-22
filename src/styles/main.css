@@ -1,0 +1,203 @@
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+
+header {
+    background-color: black;
+    height: 7vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header-text {
+    color: white;
+    font-size: 1em;
+    width: 70vw;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.main-content {
+    background-color: rgba(255, 228, 196, 0.59);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+nav {
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 95%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hero {
+    padding-top: 10px;
+    width: 90vw;
+    max-height: 50vh;
+}
+
+h2 {
+    padding: 40px;
+    padding-bottom: 15px;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+i {
+    font-style: italic;
+}
+
+p {
+    color: gray;
+    padding: 0 40px 0 40px;
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+
+.checked-lines {
+    padding: 20px 40px 20px;
+    row-gap: 10px;
+    color: rgb(172, 80, 0);
+    font-size: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checked-lines svg{
+    margin-right: 10px;
+}
+
+.checked-lines>* {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.log-in {
+    height: 8vh;
+    padding-top: 15px;
+    width: 80%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input {
+    height: auto;
+    width: 55%;
+    border-radius: 8px;
+    font-size: 100%;
+}
+
+.sign-in__button {
+    font-size: 2rem;
+    border-radius: 8px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+.social-media__box {
+    padding: 30px 0 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.social-media__box>* {
+    height: 2.5vh;
+    width: 25vw;
+}
+
+.second-content {
+    margin: 20px;
+    background-color: rgba(255, 228, 196, 0.59);
+    border-radius: 8px;
+}
+
+.second-content h2 {
+    width: 80vw;
+}
+
+.second-content p {
+    padding-bottom: 20px;
+}
+
+.underline-and-bolted {
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(172, 80, 0);
+}
+
+
+.fix__phone-img {
+    position: relative;
+    height: 40vh;
+}
+
+.second-content img {
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
+    right: -8%;
+}
+
+
+.last-content p{
+    padding-bottom: 30px;
+}
+
+.last-content img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+}
+
+
+.footer__headline{
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.footer_main p{
+    padding: 20px 40px;
+}
+
+.footer__others{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer__others > *{
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.footer__others > * > p{
+    padding: 0px;
+}
